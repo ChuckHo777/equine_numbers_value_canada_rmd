@@ -62,4 +62,14 @@ each province.
 
 Below we zoom in and look at the province of Alberta:
 
-![](hist_horse_pop_files/figure-gfm/plot%20province-1.png)<!-- -->
+<div class="figure">
+
+<img src="hist_horse_pop_files/figure-gfm/plot province-1.png" alt="The historical numbe of horse for province of focus" width="40%" />
+
+<p class="caption">
+
+The historical numbe of horse for province of focus
+
+</p>
+
+</div>
