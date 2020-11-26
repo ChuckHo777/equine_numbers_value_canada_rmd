@@ -1,38 +1,42 @@
 Historical horse population in Canada
 ================
 
-  - [Aim](#aim)
-  - [Data](#data)
-  - [Methods](#methods)
-  - [Results](#results)
-  - [References](#references)
+-   [Aim](#aim)
+-   [Data](#data)
+-   [Methods](#methods)
+-   [Results](#results)
+-   [References](#references)
 
-## Aim
+Aim
+---
 
 This project explores the historical population of horses in Canada
 between 1906 and 1972 for each Province.
 
-## Data
+Data
+----
 
 Horse population data were sourced from the [Government of Canada’s Open
 Data website](http://open.canada.ca/en/open-data). Specifically, these
 two sources were used:
 
-  - [Horses, number on farms at June 1 and at
-    December 1](http://open.canada.ca/data/en/dataset/43b3a9b3-3842-45e7-8bc8-c4c27b9462ab)
-  - [Horses, number on farms at June 1, farm value per head and total
+-   [Horses, number on farms at June 1 and at December
+    1](http://open.canada.ca/data/en/dataset/43b3a9b3-3842-45e7-8bc8-c4c27b9462ab)
+-   [Horses, number on farms at June 1, farm value per head and total
     farm
     value](http://open.canada.ca/data/en/dataset/b374f60b-9580-44dc-83f6-c0a850c15f30)
 
-## Methods
+Methods
+-------
 
 The R programming language (R Core Team 2020) and the following R
 packages were used to perform the analysis: knitr (Xie 2014) and
 tidyverse(Wickham et al. 2019). The code used to perform the analysis
 and create this report can be found here:
-<https://github.com/ttimbers/equine_numbers_value_canada_rmd>.
+<a href="https://github.com/ttimbers/equine_numbers_value_canada_rmd" class="uri">https://github.com/ttimbers/equine_numbers_value_canada_rmd</a>.
 
-## Results
+Results
+-------
 
 ![](hist_horse_pop_files/figure-gfm/plot%20horses-1.png)<!-- -->
 
@@ -48,7 +52,7 @@ Next we look at the range of the number horses for each provinces at any
 time point between 1940 - 1972:
 
 | Province             | Maximum | Minimum |
-| :------------------- | ------: | ------: |
+|:---------------------|--------:|--------:|
 | Alberta              |  806200 |   87000 |
 | British Columbia     |   65200 |   22500 |
 | Manitoba             |  370800 |   31000 |
@@ -67,16 +71,14 @@ Below we zoom in and look at the province of Alberta :
 <div class="figure">
 
 <img src="hist_horse_pop_files/figure-gfm/plot province-1.png" alt="The historical numbe of horse for province of focus" width="40%" />
-
 <p class="caption">
-
 The historical numbe of horse for province of focus
-
 </p>
 
 </div>
 
-# References
+References
+==========
 
 <div id="refs" class="references hanging-indent">
 
